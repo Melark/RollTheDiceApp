@@ -1,0 +1,13 @@
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\bin\Debug\netstandard2.0\RollTheDiceApp.deps.json
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\bin\Debug\netstandard2.0\RollTheDiceApp.dll
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\bin\Debug\netstandard2.0\RollTheDiceApp.pdb
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\obj\Debug\netstandard2.0\RollTheDiceApp.csprojAssemblyReference.cache
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\obj\Debug\netstandard2.0\Views\RollDicePage.xaml.g.cs
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\obj\Debug\netstandard2.0\RollTheDiceApp.csproj.CoreCompileInputs.cache
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\obj\Debug\netstandard2.0\RollTheDiceApp.AssemblyInfoInputs.cache
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\obj\Debug\netstandard2.0\RollTheDiceApp.AssemblyInfo.cs
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\obj\Debug\netstandard2.0\RollTheDiceApp.dll
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp\obj\Debug\netstandard2.0\RollTheDiceApp.pdb

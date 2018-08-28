@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RollTheDiceApp.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace RollTheDiceApp
     {
       InitializeComponent();
 
-      MainPage = new MainPage();
+      MainPage = new RollDicePage();
     }
 
     protected override void OnStart()
