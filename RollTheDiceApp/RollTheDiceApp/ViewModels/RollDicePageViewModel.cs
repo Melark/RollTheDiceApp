@@ -21,6 +21,40 @@ namespace RollTheDiceApp.ViewModels
       }
     }
 
+    private bool isDisplayLabelVisible = true;
+    public bool IsDisplayLabelVisible
+    {
+      get => isDisplayLabelVisible;
+      set
+      {
+        isDisplayLabelVisible = value;
+        OnPropertyChanged();
+      }
+    }
+
+    private bool isAnimationViewVisible;
+    public bool IsAnimationViewVisible
+    {
+      get => isAnimationViewVisible;
+      set
+      {
+        isAnimationViewVisible = value;
+        OnPropertyChanged();
+      }
+    }
+
+
+    private bool isAnimationPlaying;
+    public bool IsAnimationPlaying
+    {
+      get => isAnimationPlaying;
+      set
+      {
+        isAnimationPlaying = value;
+        OnPropertyChanged();
+      }
+    }
+
     public ICommand RollDiceCommand
     {
       get
@@ -28,14 +62,28 @@ namespace RollTheDiceApp.ViewModels
         return new Command(()=> 
         {
           ApplyAnimation();
-          NumberRolled = RollDice(1, 6); // TODO: Make dice type dynamic - Not just a 6 sided die
+        });
+      }
+    }
+
+    public ICommand AnimationCompletedCommand {
+      get
+      {
+        return new Command(()=> {
+          IsDisplayLabelVisible = true;
+          //NumberRolled = RollDice(1, 6); // TODO: Make dice type dynamic - Not just a 6 sided die
+          //IsAnimationViewVisible = false;
+          IsAnimationPlaying = false;
+
         });
       }
     }
 
     private void ApplyAnimation()
     {
-      // TODO: Add Rotation effect
+      IsDisplayLabelVisible = false;
+      IsAnimationViewVisible = true;
+      IsAnimationPlaying = true;
     }
 
     private int RollDice(int min, int max)

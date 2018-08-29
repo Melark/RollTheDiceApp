@@ -108,7 +108,20 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "RollTheDiceApp.Android.dll" comes first in this list. */
 		"RollTheDiceApp.Android.dll",
 		"FormsViewGroup.dll",
+		"Lottie.Android.dll",
+		"Lottie.Forms.dll",
+		"Merq.dll",
+		"Newtonsoft.Json.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.DeviceInfo.Abstractions.dll",
+		"Plugin.DeviceInfo.dll",
 		"RollTheDiceApp.dll",
+		"System.Diagnostics.Tracer.dll",
+		"System.Net.Mqtt.dll",
+		"System.Reactive.Core.dll",
+		"System.Reactive.Interfaces.dll",
+		"System.Reactive.Linq.dll",
+		"System.Reactive.PlatformServices.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
@@ -129,9 +142,12 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"Xamarin.Forms.Core.dll",
+		"Xamarin.Forms.Loader.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"Xamarin.Live.dll",
+		"Xamarin.Live.Reload.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

@@ -2,13 +2,27 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodels="clr-namespace:RollTheDiceApp.ViewModels"
-             x:Class="RollTheDiceApp.Views.RollDicePage">
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             x:Class="RollTheDiceApp.Views.RollDicePage"
+             BackgroundColor="#F26157">
     <ContentPage.BindingContext>
         <viewmodels:RollDicePageViewModel/>
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="{Binding NumberRolled}" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+            <AbsoluteLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <forms:AnimationView 
+                    AutoPlay="{Binding IsAnimationPlaying,Mode=TwoWay}"
+                    Loop="False"
+                    HeightRequest="200" 
+                    WidthRequest="200" 
+                    PlaybackFinishedCommand="{Binding AnimationCompletedCommand}"
+                    Animation="mappoint.json" 
+                    AbsoluteLayout.LayoutBounds="0.5, 0.5, -1, -1" 
+                    AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                <Label IsVisible="False" Text="{Binding NumberRolled}" VerticalOptions="Center"  AbsoluteLayout.LayoutBounds="0.5, 0.5, -1, -1" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            </AbsoluteLayout>
+            
             <Button Text="Roll Dice!" Command="{Binding RollDiceCommand}" VerticalOptions="EndAndExpand"/>
         </StackLayout>
     </ContentPage.Content>

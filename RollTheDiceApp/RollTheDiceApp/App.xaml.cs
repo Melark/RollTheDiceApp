@@ -1,5 +1,4 @@
 ﻿using RollTheDiceApp.Views;
-using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,6 +9,9 @@ namespace RollTheDiceApp
   {
     public App()
     {
+#if DEBUG
+      LiveReload.Init();
+#endif
       InitializeComponent();
 
       MainPage = new RollDicePage();
