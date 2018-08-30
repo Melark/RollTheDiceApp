@@ -71,7 +71,7 @@ namespace RollTheDiceApp.ViewModels
       {
         return new Command(()=> {
           IsDisplayLabelVisible = true;
-          //NumberRolled = RollDice(1, 6); // TODO: Make dice type dynamic - Not just a 6 sided die
+          NumberRolled = RollDice(1, 6); // TODO: Make dice type dynamic - Not just a 6 sided die
           //IsAnimationViewVisible = false;
           IsAnimationPlaying = false;
 

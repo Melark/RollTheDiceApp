@@ -4,7 +4,6 @@ C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\bin\Debug\com.compa
 C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\bin\Debug\com.companyname.RollTheDiceApp-Signed.apk
 C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\bin\Debug\RollTheDiceApp.dll
 C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\bin\Debug\RollTheDiceApp.pdb
-C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\bin\Debug\RollTheDiceApp.dll.mdb
 C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\obj\Debug\MonoAndroid81\RollTheDiceApp.Android.csprojAssemblyReference.cache
 C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\obj\Debug\MonoAndroid81\res.flag
 C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\obj\Debug\MonoAndroid81\RollTheDiceApp.Android.csproj.CoreCompileInputs.cache
@@ -83,6 +82,7 @@ C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\obj\Debug\MonoAndro
 C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\obj\Debug\MonoAndroid81\linksrc\Mono.Security.pdb
 C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\bin\Debug\FormsViewGroup.dll.mdb
 C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\bin\Debug\Plugin.DeviceInfo.dll.mdb
+C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\bin\Debug\RollTheDiceApp.dll.mdb
 C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\bin\Debug\System.Diagnostics.Tracer.dll.mdb
 C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\bin\Debug\Xamarin.Forms.Loader.dll.mdb
 C:\_GIT\RollTheDiceApp\RollTheDiceApp\RollTheDiceApp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb

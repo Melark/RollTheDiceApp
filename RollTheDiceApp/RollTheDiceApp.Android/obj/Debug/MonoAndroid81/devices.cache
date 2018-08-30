@@ -1,11 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Devices>
-  <Device id="62210157HY8268C0163">
-    <ResultingAbi></ResultingAbi>
-    <SdkVersion>23</SdkVersion>
+  <Device id="emulator-5554">
+    <ResultingAbi>x86</ResultingAbi>
+    <SdkVersion>27</SdkVersion>
   </Device>
   <Device id="emulator-5556">
     <ResultingAbi>x86</ResultingAbi>
     <SdkVersion>27</SdkVersion>
+  </Device>
+  <Device id="ce07171724aa6f3d017e">
+    <ResultingAbi></ResultingAbi>
+    <SdkVersion>26</SdkVersion>
   </Device>
 </Devices>

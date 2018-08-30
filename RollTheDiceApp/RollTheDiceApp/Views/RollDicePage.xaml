@@ -4,26 +4,29 @@
              xmlns:viewmodels="clr-namespace:RollTheDiceApp.ViewModels"
              xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              x:Class="RollTheDiceApp.Views.RollDicePage"
-             BackgroundColor="#F26157">
+             BackgroundColor="#0496FF"
+             xmlns:behavior="clr-namespace:RollTheDiceApp.Behaviors">
     <ContentPage.BindingContext>
         <viewmodels:RollDicePageViewModel/>
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <AbsoluteLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                <forms:AnimationView 
-                    AutoPlay="{Binding IsAnimationPlaying,Mode=TwoWay}"
+            <Label Text="Roll the Dice!!" FontFamily="Amatic-Bold.ttf#AmaticSC-Regular" TextColor="WhiteSmoke" FontSize="60" HorizontalOptions="Center" Margin="0,50,0,0"/>
+            <AbsoluteLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                <forms:AnimationView x:Name="animator"
+                    AutoPlay="False"
                     Loop="False"
-                    HeightRequest="200" 
-                    WidthRequest="200" 
                     PlaybackFinishedCommand="{Binding AnimationCompletedCommand}"
-                    Animation="mappoint.json" 
+                    HeightRequest="500" 
+                    WidthRequest="500" 
+                    Animation="phonological.json" 
                     AbsoluteLayout.LayoutBounds="0.5, 0.5, -1, -1" 
-                    AbsoluteLayout.LayoutFlags="PositionProportional"/>
-                <Label IsVisible="False" Text="{Binding NumberRolled}" VerticalOptions="Center"  AbsoluteLayout.LayoutBounds="0.5, 0.5, -1, -1" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    behavior:AnimationBehavior.PlayAnimation="{Binding IsAnimationPlaying,Mode=TwoWay}"                 />
+                <Label IsVisible="{Binding IsDisplayLabelVisible,Mode=TwoWay}" FontSize="Large" Text="{Binding NumberRolled}" VerticalOptions="Center"  AbsoluteLayout.LayoutBounds="0.5, 0.5, -1, -1" AbsoluteLayout.LayoutFlags="PositionProportional"/>
             </AbsoluteLayout>
-            
-            <Button Text="Roll Dice!" Command="{Binding RollDiceCommand}" VerticalOptions="EndAndExpand"/>
+
+            <Button VerticalOptions="EndAndExpand" Margin="50,0,50,25" FontFamily="Amatic-Bold.ttf#AmaticSC-Regular" Text="Roll Dice!" FontSize="Large" TextColor="WhiteSmoke" BackgroundColor="#1D84B5" Command="{Binding RollDiceCommand}"  />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

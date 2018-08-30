@@ -16,5 +16,5 @@ namespace RollTheDiceApp.Views
 		{
 			InitializeComponent ();
 		}
-	}
+  }
 }

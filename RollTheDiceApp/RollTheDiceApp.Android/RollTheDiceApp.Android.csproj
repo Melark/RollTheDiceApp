@@ -73,6 +73,8 @@
     <AndroidAsset Include="Assets\confetti.json" />
     <AndroidAsset Include="Assets\phonological.json" />
     <AndroidAsset Include="Assets\mappoint.json" />
+    <AndroidAsset Include="Assets\Amatic-Bold.ttf" />
+    <AndroidAsset Include="Assets\AmaticSC-Regular.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
